@@ -6,12 +6,7 @@ import { NavbarComponent } from "../../components/navbar/navbar.component";
 
 @Component({
     selector: "app-home",
-    imports: [
-        TitleComponent,
-        BigCardComponent,
-        SmallCardComponent,
-        NavbarComponent,
-    ],
+    imports: [TitleComponent, BigCardComponent, SmallCardComponent],
     templateUrl: "./home.component.html",
     styleUrl: "./home.component.css",
 })

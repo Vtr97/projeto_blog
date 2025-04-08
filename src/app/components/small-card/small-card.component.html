@@ -1,10 +1,14 @@
 <div class="container__small-card">
     <div class="container__small-card-content">
         <div class="small-card__pic">
-            <img src="{{ picUrl }}" alt="" />
+            <a [routerLink]="['content', id]">
+                <img src="{{ picUrl }}" alt="" />
+            </a>
         </div>
         <div class="small-card__title">
-            <h1>{{ title }}</h1>
+            <a [routerLink]="['content', id]">
+                <h1>{{ title }}</h1>
+            </a>
         </div>
     </div>
     <div class="small-card__division">
